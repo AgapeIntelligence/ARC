@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "arc-research"
+version = "1.0.0"
+description = "JAX-accelerated HEOM framework for Orch-OR proxy simulations"
+authors = ["Evie evie@agape.intelligence
+"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+qutip = "^5.0"
+jax = {version = "^0.4", extras = ["cuda12"]}
+jaxlib = {version = "^0.4", extras = ["cuda12"]}
+numpy = "^1.26"
+scipy = "^1.13"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
