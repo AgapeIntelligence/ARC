@@ -1,0 +1,4 @@
+# Placeholder patch for advanced prototype.
+# Add your diff here.
+# Apply using:
+#     git apply patches/merge_prototype.patch
